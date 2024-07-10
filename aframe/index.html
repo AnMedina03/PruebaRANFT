@@ -26,18 +26,20 @@
             type='nft' url="../resources/ramen-1000px"
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
         > -->
-        <a-nft
+            <a-marker type="pattern" url="https://cdn.glitch.global/6fa21941-e60e-4748-ad7c-03345935f0f7/pattern-fiec-11a-3.patt?v=1719749088475">
+                <a-sphere position="0 0 0" color="yellow" radius="0.5"></a-sphere>
+                <a-entity gltf-model="#model" position="0 -150 0" scale="0.1 0.1 0.1" visible="true"></a-entity>
+            </a-marker>
+<!--         <a-nft
             samplehandler 
             type='nft' url="https://anmedina03.github.io/PruebaRANFT/nft/politomap-nft-fiec-11a"
 		smooth="true" smoothCount="20" smoothTolerance="0.01" smoothThreshold="5"
         >
-            <!-- <a-entity modify-materials gltf-model="#model" material="src:#tex-image" play-all-model-animations="" position="0 0 0" rotation="0 0 0" scale="100 100 100" visible="true">
-            </a-entity> -->
 		<a-entity gltf-model="#model" position="0 -200 -800" scale="5 5 5" visible="true"></a-entity>
 		<a-entity gltf-model="#model" position="600 -200 -800" scale="5 5 5" visible="true"></a-entity>
 		<a-entity gltf-model="#model" position="0 -200 0" scale="5 5 5" visible="true"></a-entity>
 		<a-entity gltf-model="#model" position="600 -200 0" scale="5 5 5" visible="true"></a-entity>
-        </a-nft>
+        </a-nft> -->
 		<a-entity camera></a-entity>
 	</a-scene>
 </body>
